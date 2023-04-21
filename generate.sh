@@ -26,6 +26,7 @@ while IFS= read -r -d '' file; do
   file_paths+=("$file")
 done < <(find $dir -type f -name "*.dart" -print0)
 
+printf "${GREEN}Generating..."
 # Generate
 ./generator ${file_paths[@]}
 

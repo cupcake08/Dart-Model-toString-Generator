@@ -8,5 +8,6 @@ NC='\033[0m' # No Color
 # Print header with author information
 printf "${RED}-----------------------------------------------------\n"
 printf "${GREEN}Script Name:${YELLOW} ${0#./}\n"
-printf "${GREEN}Author:${YELLOW} Ankit Bhankharia (${YELLOW}https://github.com/cupcake08${GREEN})\n"
+printf "${GREEN}Author:${YELLOW} Ankit Bhankharia (${GREEN}https://github.com/cupcake08${GREEN}${YELLOW})\n"
+printf "${GREEN}Warning:${YELLOW} It only works of Unix based OS\n"
 printf "${RED}-----------------------------------------------------\n${NC}"
